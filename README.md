@@ -1,5 +1,5 @@
 # Actividad-2
-# Hello! (incompleto)
+# Hello! 
 
 **Alumno:** Baza Victoria
 
