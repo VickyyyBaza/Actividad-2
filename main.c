@@ -12,11 +12,11 @@ int main() {
     // Habilito USB
     stdio_init_all( );
 
-    gpio_set_function(4, GPIO_FUNC_I2C);
-    gpio_set_function(5, GPIO_FUNC_I2C); 
+    gpio_set_function(0, GPIO_FUNC_I2C);
+    gpio_set_function(1, GPIO_FUNC_I2C); 
 
-    gpio_pull_up(4);
-    gpio_pull_up(5);
+    gpio_pull_up(0);
+    gpio_pull_up(1);
 
     i2c_init(i2c0, 100 * 1000);
     // Inicializacion del LCD
